@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<script src="Regex_validation.js"></script>
+
+   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+ <body>
+    <h2 class="text-center text-black">form validation using in jquery </h2>
+    <div class="container"><br>
+        
+	<form action="formvalidation.html" onsubmit="validation()">
+	
+    
+    <div class="form-group">
+	<label>UserName</label>
+    <input type="text" name="username" id="usernames" class="form-control">
+	<h5 id="usercheck"> </h5>
+	</div>
+	
+	
+	<div class="form-group">
+	<label>Password</label>
+    <input type="password" 	name="pass" id="password" class="form-control">
+	<h5 id="passcheck"> </h5>
+	</div>
+	
+	<div class="form-group">
+	<label>Conform Password</label>
+    <input type="cpassword" 	name="" id="conpassword" class="form-control">
+	<h5 id="conpasscheck"> </h5>
+	</div>
+	
+        
+	<input type="submit" name="submit" id="submitbtn" class="btn btn-primary">
+	
+	</form>
+	</div>  
+	
+</body>
+</html>
